@@ -1,0 +1,297 @@
+/* Import Gaming Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* Root Variables */
+:root {
+  --color-gold: #FFD700;
+  --color-gold-light: #FFED4E;
+  --color-gold-dark: #B8860B;
+  --color-purple-dark: #4C1D95;
+  --color-purple: #7C3AED;
+  --color-purple-light: #A78BFA;
+}
+
+/* Global Styles */
+.App {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, .hero-title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Text Gradients */
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-gold) 50%, var(--color-gold-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gold-400 {
+  color: var(--color-gold);
+}
+
+/* Section Styles */
+.section-padding {
+  padding: 80px 0;
+  position: relative;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #E5E7EB;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+/* Background Patterns */
+.bg-dark-pattern {
+  background-color: #000000;
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(124, 58, 237, 0.1) 0px, transparent 50%),
+    radial-gradient(at 80% 80%, rgba(124, 58, 237, 0.1) 0px, transparent 50%);
+}
+
+/* Glass Morphism Cards */
+.card-glass {
+  background: rgba(30, 27, 75, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-glass:hover {
+  border-color: rgba(167, 139, 250, 0.5);
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.3);
+}
+
+/* Card Hover Effect */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #7C3AED 0%, #5B21B6 100%);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #8B5CF6 0%, #6D28D9 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.4);
+}
+
+.btn-primary-large {
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%);
+  color: #000000;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 1rem 2rem;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary-large:hover {
+  background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-gold) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(255, 215, 0, 0.4);
+  color: #000000;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #A78BFA;
+  border: 2px solid #7C3AED;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(124, 58, 237, 0.2);
+  border-color: #8B5CF6;
+  color: #C4B5FD;
+  transform: translateY(-2px);
+}
+
+/* Icon Wrappers */
+.icon-wrapper {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.3), rgba(167, 139, 250, 0.3));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(167, 139, 250, 0.3);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  color: #A78BFA;
+}
+
+.card-hover:hover .icon-wrapper {
+  transform: scale(1.1);
+  border-color: rgba(167, 139, 250, 0.6);
+}
+
+.icon-wrapper-small {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.3), rgba(167, 139, 250, 0.3));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(167, 139, 250, 0.3);
+  color: #A78BFA;
+}
+
+.icon-wrapper-achievement {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(184, 134, 11, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  color: var(--color-gold);
+}
+
+/* Stat Items */
+.stat-item {
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up.visible {
+  opacity: 1;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+.animation-delay-800 {
+  animation-delay: 800ms;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.animate-scroll {
+  animation: scroll 2s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 4s ease-in-out infinite;
+}
+
+/* Gradient Radial */
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, var(--tw-gradient-stops));
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(124, 58, 237, 0.5);
+  color: white;
+}
