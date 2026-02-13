@@ -59,7 +59,7 @@ export const joinRequirements = [
   },
   {
     id: 4,
-    title: "No Toxic Behavior",
+    title: "Respectful Play",
     description: "Respect each other, help one another, and create a positive environment",
     icon: "Shield"
   }
