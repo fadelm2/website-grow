@@ -72,20 +72,20 @@ export const coreMembers = [
     name: "Ali Fahmi",
     role: "Guild Master",
     level: "650",
-    specialty: "Founded Grow"
+    specialty: "Vision, Leadership & Competitive"
   },
   {
     id: 2,
     name: "Usagi",
     role: "Core Member",
     level: "270",
-    specialty: "PVE Specialist"
+    specialty: "PVE Specialist  && Community Support"
   },
   {
     id: 3,
     name: "YogSoth",
     role: "Core Member",
-    level: "97",
+    level: "490",
     specialty: "Information & Strategt Contributor"
   },
   {
