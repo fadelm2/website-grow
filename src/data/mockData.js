@@ -33,7 +33,7 @@ export const guildFeatures = [
   {
     id: 4,
     title: "Positive Environment",
-    description: "No toxic behavior, mutual respect, and enjoying progress together.",
+    description: "Respectful Behaviour, mutual respect, and enjoying progress together.",
     icon: "Heart"
   }
 ];
