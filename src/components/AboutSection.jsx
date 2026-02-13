@@ -26,8 +26,8 @@ export const AboutSection = ({ guildInfo }) => {
                   <div className="text-gray-400">Guild Ranking</div>
                 </div>
                 <div className="stat-item">
-                  <div className="text-4xl font-bold text-gradient-gold mb-2">100%</div>
-                  <div className="text-gray-400">Weekly Clear</div>
+                  <div className="text-4xl font-bold text-gradient-gold mb-2">19K+</div>
+                  <div className="text-gray-400">Daily Contribution</div>
                 </div>
               </div>
             </div>
