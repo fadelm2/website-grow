@@ -22,7 +22,7 @@ export const AboutSection = ({ guildInfo }) => {
                   <div className="text-gray-400">Active Members</div>
                 </div>
                 <div className="stat-item">
-                  <div className="text-4xl font-bold text-gradient-gold mb-2">Top 10</div>
+                  <div className="text-4xl font-bold text-gradient-gold mb-2">Top 10-25</div>
                   <div className="text-gray-400">Guild Ranking</div>
                 </div>
                 <div className="stat-item">
