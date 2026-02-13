@@ -107,9 +107,9 @@ export const coreMembers = [
 export const achievements = [
   {
     id: 1,
-    title: "Top 15–25",
-    description: "Weekly & Monthly Ranking",
-    date: "Februari 2026",
+    title: "Top 7",
+    description: "Daily Ranking - [ G-Point 23380 ]",
+    date: "8 Februari 2026",
     icon: "Trophy"
   },
   {
