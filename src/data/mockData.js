@@ -4,35 +4,36 @@ export const guildInfo = {
   name: "GROW",
   game: "Grand Chase Classic",
   tagline: "Grow Together. Chase Stronger.",
-  description: "GROW adalah guild yang fokus pada perkembangan bersama. Kami mengutamakan progress bareng dalam konten PvE, Raid, Void, dan Weekly. Komunitas yang casual-friendly namun tetap aktif dan kompetitif.",
+  description: "GROW was founded on July 12, 2025 — just two days after the journey began.\n\nBuilt entirely from scratch by a Free-to-Play Guild Master, the guild stands on dedication, consistency, and long-term vision.\n\nWhat started as a fresh beginning quickly evolved into a structured and steadily growing competitive community.",
   discordLink: "https://discord.com/invite/vPbQQdjy2j",
   youtubeChannel: "GCGUIDE",
-  youtubeLink: "https://www.youtube.com/@gcguide?=si=2k6Z2017-VtPIMKm"
+  youtubeLink: "https://www.youtube.com/@gcguide?si=2k6Z2017-VtPIMKm"
 };
+
 
 export const guildFeatures = [
   {
     id: 1,
     title: "Active Community",
-    description: "Komunitas aktif yang saling support dan membantu progress bersama",
+    description: "An active community that supports one another and grows together.",
     icon: "Users"
   },
   {
     id: 2,
-    title: "Weekly & Void Farming",
-    description: "Rutin farming Weekly Dungeon dan Void untuk maksimalkan reward",
+    title: "Daily & Weekly Farming*",
+    description: "Structured farming and coordinated clears for maximum rewards",
     icon: "Swords"
   },
   {
     id: 3,
     title: "Build & Guide Sharing",
-    description: "Sharing build, strategy, dan guide untuk semua member",
+    description: "Sharing builds, strategies, and useful insights to help members improve.",
     icon: "BookOpen"
   },
   {
     id: 4,
-    title: "Friendly Environment",
-    description: "No toxic, saling menghargai, dan enjoy bareng",
+    title: "Positive Environment",
+    description: "No toxic behavior, mutual respect, and enjoying progress together.",
     icon: "Heart"
   }
 ];
@@ -40,29 +41,30 @@ export const guildFeatures = [
 export const joinRequirements = [
   {
     id: 1,
-    title: "Aktif Bermain",
-    description: "Main secara rutin dan kontribusi dalam guild activities",
+    title: "Active Player",
+    description: "Play regularly and contribute to guild activities",
     icon: "Zap"
   },
   {
     id: 2,
-    title: "Mau Berkembang",
-    description: "Punya semangat untuk terus improve dan progress bareng",
+    title: "Willing to Improve",
+    description: "Have the motivation to keep improving and progressing together",
     icon: "TrendingUp"
   },
   {
     id: 3,
     title: "Join Discord",
-    description: "Wajib join Discord untuk koordinasi dan komunikasi",
+    description: "Required to join Discord for coordination and communication",
     icon: "MessageCircle"
   },
   {
     id: 4,
-    title: "No Toxic",
-    description: "Saling respect, bantu, dan ciptakan environment yang positif",
+    title: "No Toxic Behavior",
+    description: "Respect each other, help one another, and create a positive environment",
     icon: "Shield"
   }
 ];
+
 
 export const coreMembers = [
   {
@@ -105,9 +107,9 @@ export const coreMembers = [
 export const achievements = [
   {
     id: 1,
-    title: "Top 10 Guild Ranking",
-    description: "Berhasil masuk Top 10 guild server",
-    date: "Desember 2024",
+    title: "Top 15–25",
+    description: "Weekly & Monthly Ranking",
+    date: "Februari 2026",
     icon: "Trophy"
   },
   {
@@ -120,15 +122,15 @@ export const achievements = [
   {
     id: 3,
     title: "50+ Active Members",
-    description: "Mempertahankan 50+ member aktif konsisten",
-    date: "November 2024",
+    description: "Maintaining 50+ active members consistently",
+    date: "Januari 2026",
     icon: "Users"
   },
   {
     id: 4,
-    title: "Void Master",
-    description: "Clear highest tier Void content bersama",
-    date: "Januari 2025",
+    title: "20K+",
+    description: "Daily Contribution",
+    date: "Januari 2026",
     icon: "Star"
   }
 ];
