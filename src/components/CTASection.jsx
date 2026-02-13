@@ -37,7 +37,7 @@ export const CTASection = ({ guildInfo }) => {
             className="btn-primary-large group animate-fade-in-up animation-delay-800"
             onClick={() => window.open(guildInfo.discordLink, '_blank')}
           >
-            Join Guild GROW Sekarang
+            Join Guild GROW Now
             <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-2 transition-transform" />
           </Button>
         </div>
