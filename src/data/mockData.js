@@ -6,8 +6,8 @@ export const guildInfo = {
   tagline: "Grow Together. Chase Stronger.",
   description: "GROW adalah guild yang fokus pada perkembangan bersama. Kami mengutamakan progress bareng dalam konten PvE, Raid, Void, dan Weekly. Komunitas yang casual-friendly namun tetap aktif dan kompetitif.",
   discordLink: "https://discord.com/invite/vPbQQdjy2j",
-  youtubeChannel: "GCID GUIDE",
-  youtubeLink: "https://www.youtube.com/@GCIDGUIDE"
+  youtubeChannel: "GCGUIDE",
+  youtubeLink: "https://www.youtube.com/@gcguide?=si=2k6Z2017-VtPIMKm"
 };
 
 export const guildFeatures = [
@@ -67,45 +67,38 @@ export const joinRequirements = [
 export const coreMembers = [
   {
     id: 1,
-    name: "Commander Alpha",
+    name: "Ali Fahmi",
     role: "Guild Master",
-    level: "99",
-    specialty: "Leadership & Strategy"
+    level: "650",
+    specialty: "Founded Grow"
   },
   {
     id: 2,
-    name: "Vice Leader Beta",
-    role: "Vice Leader",
-    level: "98",
-    specialty: "Raid Coordinator"
+    name: "Usagi",
+    role: "Core Member",
+    level: "270",
+    specialty: "PVE Specialist"
   },
   {
     id: 3,
-    name: "Officer Gamma",
-    role: "Officer",
+    name: "YogSoth",
+    role: "Core Member",
     level: "97",
-    specialty: "PvE Specialist"
+    specialty: "Information & Strategt Contributor"
   },
   {
     id: 4,
-    name: "Officer Delta",
-    role: "Officer",
-    level: "96",
-    specialty: "Build Guide Expert"
+    name: "Axverads",
+    role: "Creative & Technical Support",
+    level: "120",
+    specialty: "Web Development & Design"
   },
   {
     id: 5,
-    name: "Elite Epsilon",
-    role: "Core Member",
-    level: "95",
-    specialty: "Void Farming"
-  },
-  {
-    id: 6,
-    name: "Elite Zeta",
-    role: "Core Member",
-    level: "95",
-    specialty: "Weekly Runner"
+    name: "Qmantha",
+    role: "Community Operations",
+    level: "0",
+    specialty: "Discord Management"
   }
 ];
 
