@@ -56,7 +56,7 @@ export const MediaLinksSection = ({ guildInfo }) => {
               onClick={() => window.open(guildInfo.youtubeLink, '_blank')}
             >
               <Youtube className="mr-2 h-5 w-5" />
-              Watch Guides
+              Youtube
             </Button>
           </div>
         </div>
