@@ -19,10 +19,10 @@ export const CTASection = ({ guildInfo }) => {
           </div>
           
           <h2 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up animation-delay-200">
-            <span className="text-gradient-gold">Start Small,</span>
+            <span className="text-gradient-gold">Start Small</span>
              
             <br />
-            <span className="text-purple-300">Leave Bigger.</span>
+            <span className="text-purple-300">Leave Bigger</span>
           </h2>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-up animation-delay-400 font-light">
