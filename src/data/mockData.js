@@ -113,24 +113,10 @@ export const achievements = [
     icon: "Trophy"
   },
   {
-    id: 2,
-    title: "100% Weekly Clear",
-    description: "Clear semua Weekly Dungeon setiap minggu",
-    date: "Ongoing",
-    icon: "Target"
-  },
-  {
     id: 3,
     title: "50+ Active Members",
     description: "Maintaining 50+ active members consistently",
     date: "Januari 2026",
     icon: "Users"
-  },
-  {
-    id: 4,
-    title: "20K+",
-    description: "Daily Contribution",
-    date: "Januari 2026",
-    icon: "Star"
   }
 ];
