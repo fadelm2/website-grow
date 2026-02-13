@@ -7,7 +7,7 @@ export const AboutSection = ({ guildInfo }) => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="section-title text-center mb-12 animate-fade-in-up">
-            Tentang <span className="text-gradient-gold">GROW</span>
+            About <span className="text-gradient-gold">GROW</span>
           </h2>
           
           <Card className="card-glass p-8 md:p-12 animate-fade-in-up animation-delay-200">
