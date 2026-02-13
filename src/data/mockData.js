@@ -86,7 +86,7 @@ export const coreMembers = [
     name: "YogSoth",
     role: "Core Member",
     level: "490",
-    specialty: "Information & Strategt Contributor"
+    specialty: "Information & Strategy Contributor"
   },
   {
     id: 4,
