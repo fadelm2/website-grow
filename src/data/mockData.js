@@ -20,7 +20,7 @@ export const guildFeatures = [
   },
   {
     id: 2,
-    title: "Daily & Weekly Farming*",
+    title: "Daily & Weekly Farming",
     description: "Structured farming and coordinated clears for maximum rewards",
     icon: "Swords"
   },
