@@ -17,7 +17,7 @@ import {
   achievements
 } from "./data/mockData";
 
-const LOGO_URL = "https://customer-assets.emergentagent.com/job_chase-grow/artifacts/b9k3gptb_f4ff6dae-3c37-4fc2-aca1-7d03736a1af0.png";
+const LOGO_URL = "/guildgrow.png";
 
 function App() {
   useEffect(() => {
