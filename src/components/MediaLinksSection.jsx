@@ -28,7 +28,7 @@ export const MediaLinksSection = ({ guildInfo }) => {
             </div>
             <h3 className="text-2xl font-bold mb-3 text-purple-200">Discord Community</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Join server Discord kami untuk koordinasi, sharing info, dan ngobrol bareng member lainnya
+             Join our Discord server for coordination, sharing information, and chatting with other members
             </p>
             <Button 
               size="lg"
@@ -47,7 +47,7 @@ export const MediaLinksSection = ({ guildInfo }) => {
             </div>
             <h3 className="text-2xl font-bold mb-3 text-purple-200">YouTube Guides</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Tonton guide, tips & tricks, dan konten Grand Chase Classic di channel YouTube kami
+              Watch guides, tips & tricks, and Grand Chase Classic content on our YouTube channel as well
             </p>
             <Button 
               size="lg"
