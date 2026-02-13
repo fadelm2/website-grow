@@ -19,9 +19,10 @@ export const CTASection = ({ guildInfo }) => {
           </div>
           
           <h2 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up animation-delay-200">
-            <span className="text-gradient-gold">Masuk Kecil,</span>
+            <span className="text-gradient-gold">Start Small,</span>
+             
             <br />
-            <span className="text-purple-300">Keluar Besar</span>
+            <span className="text-purple-300">Leave Bigger.</span>
           </h2>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-up animation-delay-400 font-light">
@@ -29,7 +30,7 @@ export const CTASection = ({ guildInfo }) => {
           </p>
 
           <p className="text-lg text-gray-400 mb-12 animate-fade-in-up animation-delay-600 max-w-2xl mx-auto leading-relaxed">
-            Bergabunglah dengan komunitas yang solid, berkembang bersama pemain lain, dan raih achievement tertinggi di Grand Chase Classic. Saatnya upgrade dari player solo menjadi bagian dari guild legend.
+            Join a solid community, grow together with other players, and achieve the highest accomplishments in Grand Chase Classic. It’s time to upgrade from a solo player to becoming part of a legendary guild.
           </p>
 
           <Button 
