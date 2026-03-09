@@ -82,13 +82,6 @@ export const coreMembers = [
     specialty: "PVE Specialist  & Community Support"
   },
   {
-    id: 3,
-    name: "YogSoth",
-    role: "Core Member",
-    level: "490",
-    specialty: "Information & Strategy Contributor"
-  },
-  {
     id: 4,
     name: "Axverads",
     role: "Creative & Technical Support",
