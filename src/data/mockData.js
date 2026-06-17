@@ -71,30 +71,45 @@ export const coreMembers = [
     id: 1,
     name: "Ali Fahmi",
     role: "Guild Master",
-    level: "670",
+    level: "740",
     specialty: "Vision, Leadership & Competitive"
   },
   {
     id: 2,
     name: "Usagi",
     role: "Core Member",
-    level: "300",
+    level: "550",
     specialty: "PVE Specialist  & Community Support"
   },
-  {
-    id: 4,
-    name: "Axverads",
-    role: "Creative & Technical Support",
-    level: "220",
-    specialty: "Web Development & Design"
-  },
+
   {
     id: 5,
     name: "Qmantha",
     role: "Community Operations",
     level: "0",
     specialty: "Discord Management"
-  }
+  },
+   {
+    id: 6,
+    name: "Mitsuha",
+    role: "Core Member",
+    level: "600",
+    specialty: "Top Contributor"
+  },
+   {
+    id: 7,
+    name: "BBM",
+    role: "Core Member",
+    level: "740",
+    specialty: "PVP Specialist"
+  },
+   {
+    id: 8,
+    name: "Axverads",
+    role: "Creative & Technical Support",
+    level: "285",
+    specialty: "Web Development & Design"
+  },
 ];
 
 export const achievements = [
