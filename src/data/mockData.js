@@ -71,44 +71,44 @@ export const coreMembers = [
     id: 1,
     name: "Ali Fahmi",
     role: "Guild Master",
-    level: "740",
+    level: "770",
     specialty: "Vision, Leadership & Competitive"
   },
   {
     id: 2,
     name: "Usagi",
     role: "Core Member",
-    level: "550",
+    level: "620",
     specialty: "PVE Specialist  & Community Support"
   },
 
   {
     id: 5,
-    name: "Qmantha",
-    role: "Community Operations",
-    level: "0",
-    specialty: "Discord Management"
+    name: "Axverads",
+    role: "Creative & Technical Support",
+    level: "350",
+    specialty: "Web Development & Design"
   },
    {
     id: 6,
     name: "Mitsuha",
     role: "Core Member",
-    level: "600",
+    level: "680",
     specialty: "Top Contributor"
   },
    {
     id: 7,
     name: "BBM",
     role: "Core Member",
-    level: "740",
+    level: "777",
     specialty: "PVP Specialist"
   },
    {
     id: 8,
-    name: "Axverads",
-    role: "Creative & Technical Support",
-    level: "285",
-    specialty: "Web Development & Design"
+    name: "?",
+    role: "X",
+    level: "X",
+    specialty: ""
   },
 ];
 
@@ -122,7 +122,7 @@ export const achievements = [
   },
   {
     id: 3,
-    title: "50+ Active Members",
+    title: "50+ Peak concurrent members",
     description: "Maintaining 50+ active members consistently",
     date: "Januari 2026",
     icon: "Users"
