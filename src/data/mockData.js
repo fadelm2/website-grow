@@ -7,7 +7,9 @@ export const guildInfo = {
   description: "GROW was founded on July 12, 2025 — just two days after the journey began.\n\nBuilt entirely from scratch by a Free-to-Play Guild Master, the guild stands on dedication, consistency, and long-term vision.\n\nWhat started as a fresh beginning quickly evolved into a structured and steadily growing competitive community.",
   discordLink: "https://discord.com/invite/vPbQQdjy2j",
   youtubeChannel: "GCGUIDE",
-  youtubeLink: "https://www.youtube.com/@gcguide?si=2k6Z2017-VtPIMKm"
+  youtubeLink: "https://www.youtube.com/@gcguide?si=2k6Z2017-VtPIMKm",
+  facebookLink: "https://www.facebook.com/groups/grandchaseclassic",
+  githubLink: "https://github.com/fadelm2"
 };
 
 
@@ -66,6 +68,69 @@ export const joinRequirements = [
 ];
 
 
+export const topStrongerMembers = [
+  {
+    id: 1,
+    rank: 1,
+    name: "Ali Fahmi",
+    title: "Guild Master",
+    level: "770",
+    totalAttack: "1.25M+ TA",
+    specialty: "Vision, Leadership & Competitive",
+    mainHero: "Sieghart / Dio"
+  },
+  {
+    id: 2,
+    rank: 2,
+    name: "BBM",
+    title: "PVP Specialist",
+    level: "777",
+    totalAttack: "1.20M+ TA",
+    specialty: "High-Rank Arena Dominator",
+    mainHero: "Lass / Jin"
+  },
+  {
+    id: 3,
+    rank: 3,
+    name: "Mitsuha",
+    title: "Top Contributor",
+    level: "680",
+    totalAttack: "1.05M+ TA",
+    specialty: "High DPS Raid Clears",
+    mainHero: "Arme / Ley"
+  },
+  {
+    id: 4,
+    rank: 4,
+    name: "Usagi",
+    title: "PVE Specialist",
+    level: "620",
+    totalAttack: "980K+ TA",
+    specialty: "Raid Coordination & Tank",
+    mainHero: "Ronan / Ryan"
+  },
+  {
+    id: 5,
+    rank: 5,
+    name: "Axverads",
+    title: "Creative & Tech Support",
+    level: "350",
+    totalAttack: "850K+ TA",
+    specialty: "Web Dev & Tactical Support",
+    mainHero: "Elesis / Uno"
+  },
+  {
+    id: 6,
+    rank: 6,
+    name: "?",
+    title: "Open Slot",
+    level: "X",
+    totalAttack: "Top Tier",
+    specialty: "Are You The Next Strongest?",
+    mainHero: "Grand Chase Fighter"
+  }
+];
+
 export const coreMembers = [
   {
     id: 1,
@@ -81,7 +146,6 @@ export const coreMembers = [
     level: "620",
     specialty: "PVE Specialist  & Community Support"
   },
-
   {
     id: 5,
     name: "Axverads",
@@ -89,27 +153,27 @@ export const coreMembers = [
     level: "350",
     specialty: "Web Development & Design"
   },
-   {
+  {
     id: 6,
     name: "Mitsuha",
     role: "Core Member",
     level: "680",
     specialty: "Top Contributor"
   },
-   {
+  {
     id: 7,
     name: "BBM",
     role: "Core Member",
     level: "777",
     specialty: "PVP Specialist"
   },
-   {
+  {
     id: 8,
     name: "?",
     role: "X",
     level: "X",
     specialty: ""
-  },
+  }
 ];
 
 export const achievements = [
@@ -128,3 +192,49 @@ export const achievements = [
     icon: "Users"
   }
 ];
+
+export const galleryImages = [
+  {
+    id: 1,
+    title: "Knights of Grand Chase",
+    category: "Hero Showcase",
+    description: "Pertarungan epik para kesatria Aernas mempertahankan kedamaian dunia.",
+    src: "/gallery/gc-1.jpg"
+  },
+  {
+    id: 2,
+    title: "Epic Raid Battle",
+    category: "Guild Raid",
+    description: "Kerjasama koordinasi guild dalam menaklukkan bos dungeon berlevel tinggi.",
+    src: "/gallery/gc-2.jpg"
+  },
+  {
+    id: 3,
+    title: "Continent of Aernas",
+    category: "Adventure",
+    description: "Jelajahi berbagai benua penuh misteri bersama anggota GROW.",
+    src: "/gallery/gc-3.jpg"
+  },
+  {
+    id: 4,
+    title: "PvP Arena Clash",
+    category: "PvP Combat",
+    description: "Pertarungan kompetitif 3v3 intensif untuk membuktikan ketangguhan guild.",
+    src: "/gallery/gc-4.jpg"
+  },
+  {
+    id: 5,
+    title: "Hero Roster & Job Awakening",
+    category: "Character Build",
+    description: "Kombinasi formasi hero dan build skill terbaik untuk mendominasi pertempuran.",
+    src: "/gallery/gc-5.jpg"
+  },
+  {
+    id: 6,
+    title: "Special Coordi & Awakening",
+    category: "Guild Collection",
+    description: "Tampilan visual legendaris dan kekuatan penuh para jawara Grand Chase.",
+    src: "/gallery/gc-6.jpg"
+  }
+];
+
