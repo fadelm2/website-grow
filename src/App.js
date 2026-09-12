@@ -4,8 +4,10 @@ import { HeroSection } from "./components/HeroSection";
 import { AboutSection } from "./components/AboutSection";
 import { FeaturesSection } from "./components/FeaturesSection";
 import { RequirementsSection } from "./components/RequirementsSection";
+import { TopStrongerSection } from "./components/TopStrongerSection";
 import { MemberShowcase } from "./components/MemberShowcase";
 import { AchievementSection } from "./components/AchievementSection";
+import { GallerySection } from "./components/GallerySection";
 import { MediaLinksSection } from "./components/MediaLinksSection";
 import { CTASection } from "./components/CTASection";
 import { Footer } from "./components/Footer";
@@ -13,8 +15,10 @@ import {
   guildInfo,
   guildFeatures,
   joinRequirements,
+  topStrongerMembers,
   coreMembers,
-  achievements
+  achievements,
+  galleryImages
 } from "./data/mockData";
 
 const LOGO_URL = "/guildgrow.png";
@@ -62,8 +66,10 @@ function App() {
       <AboutSection guildInfo={guildInfo} />
       <FeaturesSection features={guildFeatures} />
       <RequirementsSection requirements={joinRequirements} />
+      <TopStrongerSection members={topStrongerMembers} />
       <MemberShowcase members={coreMembers} />
       <AchievementSection achievements={achievements} />
+      <GallerySection images={galleryImages} guildInfo={guildInfo} />
       <MediaLinksSection guildInfo={guildInfo} />
       <CTASection guildInfo={guildInfo} />
       <Footer guildInfo={guildInfo} />
