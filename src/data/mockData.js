@@ -8,7 +8,8 @@ export const guildInfo = {
   discordLink: "https://discord.com/invite/vPbQQdjy2j",
   youtubeChannel: "GCGUIDE",
   youtubeLink: "https://www.youtube.com/@gcguide?si=2k6Z2017-VtPIMKm",
-  facebookLink: "https://www.facebook.com/groups/grandchaseclassic"
+  facebookLink: "https://www.facebook.com/groups/grandchaseclassic",
+  githubLink: "https://github.com/fadelm2"
 };
 
 

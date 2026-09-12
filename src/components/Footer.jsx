@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Youtube } from 'lucide-react';
+import { MessageCircle, Youtube, Github } from 'lucide-react';
 
 export const Footer = ({ guildInfo }) => {
   const currentYear = new Date().getFullYear();
@@ -91,14 +91,37 @@ export const Footer = ({ guildInfo }) => {
                   Facebook Group
                 </a>
               )}
+              <a 
+                href={guildInfo.githubLink || "https://github.com/fadelm2"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-400 hover:text-yellow-300 transition-colors"
+              >
+                <Github className="h-5 w-5" />
+                Developer GitHub
+              </a>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-purple-900/30 text-center text-gray-500 text-sm">
-          <p>&copy; {currentYear} Guild GROW - Grand Chase Classic. All rights reserved.</p>
-          <p className="mt-2">Grow Together. Chase Stronger.</p>
+        <div className="pt-8 border-t border-purple-900/30 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-500 text-sm">
+          <div className="text-center sm:text-left">
+            <p>&copy; {currentYear} Guild GROW - Grand Chase Classic. All rights reserved.</p>
+            <p className="mt-1 text-xs text-gray-600">Grow Together. Chase Stronger.</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-gray-400">Developer:</span>
+            <a
+              href={guildInfo.githubLink || "https://github.com/fadelm2"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-purple-950/60 hover:bg-purple-900/80 border border-purple-500/30 hover:border-yellow-400 text-gray-300 hover:text-white transition-all duration-200 group shadow-md"
+            >
+              <Github className="h-4 w-4 text-purple-300 group-hover:text-yellow-300 transition-colors" />
+              <span className="text-xs font-semibold text-gradient-gold">fadelm2</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
