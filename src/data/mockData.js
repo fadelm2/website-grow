@@ -144,35 +144,35 @@ export const coreMembers = [
     name: "Usagi",
     role: "Core Member",
     level: "620",
-    specialty: "PVE Specialist & Community Support"
+    specialty: "PVE Specialist  & Community Support"
   },
   {
-    id: 3,
+    id: 5,
     name: "Axverads",
     role: "Creative & Technical Support",
     level: "350",
     specialty: "Web Development & Design"
   },
   {
-    id: 4,
+    id: 6,
     name: "Mitsuha",
     role: "Core Member",
     level: "680",
     specialty: "Top Contributor"
   },
   {
-    id: 5,
+    id: 7,
     name: "BBM",
     role: "Core Member",
     level: "777",
     specialty: "PVP Specialist"
   },
   {
-    id: 6,
+    id: 8,
     name: "?",
     role: "X",
     level: "X",
-    specialty: "Open Recruitment"
+    specialty: ""
   }
 ];
 
@@ -186,7 +186,7 @@ export const achievements = [
   },
   {
     id: 3,
-    title: "50+ Active Members",
+    title: "50+ Peak concurrent members",
     description: "Maintaining 50+ active members consistently",
     date: "Januari 2026",
     icon: "Users"
