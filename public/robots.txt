@@ -1,0 +1,5 @@
+# robots.txt for GROW Guild Landing Page
+User-agent: *
+Allow: /
+
+Sitemap: https://grow.guildgc.online/sitemap.xml
